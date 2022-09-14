@@ -1,3 +1,87 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+
+}
+/*purple AA14F0*/
+header {
+    background-color:#aa14f0;
+    color:#f2f2f2;
+    display:flex;
+    padding:1em;
+    justify-content:space-between;
+    align-items:end;
+
+}
+nav {
+    flex-direction:flex;
+    gap:10px;
+}
+
+
+ul{
+    display:flex;
+}
+li {
+    list-style: none;
+}
+
+body {
+    background-color:#000;
+    color:#f2f2f2;
+}
+
+h1 {
+    border:2px solid yellow;
+    
+} 
+.maincontainer {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:2px solid white;
+    text-align:center;
+}
+.gallery {
+    border:2px solid red;
+}
+
+img {
+    width:75%;
+    height:auto;
+}
+
+.landscapes {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.seascapes {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    align-items:center;
+}
+
+.autumn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.winter {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items:center;
+}
+
+.black-white {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
