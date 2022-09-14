@@ -9,6 +9,7 @@ body {
     width:100vw;
     background-position: center;
     font-family: 'Playfair Display', serif;
+    height:100vh;
 }
 
 header {
@@ -48,3 +49,7 @@ word-spacing: 0.5em;
 margin-top:-1em;
 }
 
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
