@@ -7,7 +7,7 @@
 }
 /*purple AA14F0*/
 header {
-    background-color:#aa14f0;
+    background-color:#000;
     color:#f2f2f2;
     display:flex;
     padding:1em;
@@ -15,17 +15,28 @@ header {
     align-items:end;
 
 }
-nav {
-    flex-direction:flex;
-    gap:10px;
+#home {
+    border-bottom: 4px solid #AA14F0;
 }
-
+header h2 {
+    text-shadow:2px 2px 1px #AA14F0;
+}
 
 ul{
     display:flex;
+    gap:20px;
 }
+
 li {
     list-style: none;
+    font-weight:700;
+}
+
+a {
+    text-decoration:none;
+}
+a:visited {
+    color:#f2f2f2;
 }
 
 body {
@@ -34,24 +45,40 @@ body {
 }
 
 h1 {
-    border:2px solid yellow;
+    margin:1em;
+    font-weight:700;
+    font-size:3em;
+    letter-spacing: .25em;
     
 } 
+
+.heading {
+    background-color:rgba(0, 0, 0, 0.7);
+    height:200px;
+    width:100vw;
+
+}
 .maincontainer {
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    border:2px solid white;
     text-align:center;
-}
-.gallery {
-    border:2px solid red;
+    background: linear-gradient(#000, #AA14F0);
 }
 
+
 img {
-    width:75%;
+    width:70%;
     height:auto;
+    margin:20px;
+}
+
+h3 {
+    padding:10px;
+    margin:5px 20px;
+    font-size:24px;
+    letter-spacing: .25em;
 }
 
 .landscapes {
