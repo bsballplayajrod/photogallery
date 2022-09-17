@@ -22,8 +22,8 @@ header {
 
 }
 header h2 {
-    text-shadow:2px 2px 1px #AA14F0;
-    font-size:30px;
+    text-shadow:3px 2px 4px #AA14F0;
+    font-size:35px;
     margin:25px auto 25px;
     letter-spacing:.25em;
     padding:25px;
@@ -46,10 +46,11 @@ ul{
 
 li {
     list-style: none;
-    font-weight:700;
+    font-weight:400;
     font-size:22px;
     margin-bottom:25px;
-    letter-spacing:.20em;
+    letter-spacing:.10em;
+    text-shadow:2px 2px 8px #AA14F0;
 }
 
 a {
@@ -65,7 +66,7 @@ h1 {
     font-weight:700;
     text-align:center;
     margin:25px 0;
-    text-shadow: 3px 3px 8px #AA14F0;
+    text-shadow: 2px 2px 4px #AA14F0;
     letter-spacing:.25em;
     border-bottom:4px solid #AA14F0;
 } 
