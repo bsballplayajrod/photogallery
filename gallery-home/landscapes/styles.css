@@ -111,7 +111,11 @@ li.galdropdwn {
     gap:25px;
     margin:25px auto;
 }
-
+/* ================== GALLERY PAGES TEMPLATE ========================= */
+h1 {
+    text-shadow:4px 4px 6px #AA14F0;
+    letter-spacing: 0.25em;
+}
 img {
     width:80%;
     height:auto;
