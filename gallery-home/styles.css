@@ -3,15 +3,35 @@
     margin:0;
     padding:0;
     font-family: 'Playfair Display', serif;
-
 }
+
+
+
+h1 {
+    margin-top:75px;
+    text-align:center;
+    padding:10px;
+}
+
+
+.gallery {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:5px solid #f2f2f2;
+    text-align:center;
+    gap:30px;
+    padding:25px;
+}
+/*
 body {
     margin:0 auto;
     background:linear-gradient(#000, #AA14F0);
     color:#f2f2f2;
     
 }
-/*purple AA14F0*/
+/*purple AA14F0*
 header {
     color:#f2f2f2;
     display:inline;
@@ -100,7 +120,7 @@ li.galdropdwn {
     text-shadow: 2px 2px 4px #AA14F0;
     letter-spacing:.25em;
     border-bottom:4px solid #AA14F0;
-}*/ 
+}*
 
 
 .maincontainer {
